@@ -7,9 +7,9 @@ import { ethers } from 'ethers';
 // const completions = new Completions({
 //   apiKey: 'your-api-key',
 // });
-const STORYSTORE_ADDRESS = "";
+const STORYSTORE_ADDRESS = "0x9f0B15C96DBE75471b0145aA0e59A2F62Bf58015";
 const EXAMPLE_STORY = "Once upon a time, there was a great peanut warior. He was the best in the land, and no one could beat him. One day, he was challenged by a drone. The peanut warrior was not afraid, and he took out his sword. He was ready to fight, but the drone was too fast. It shot him with a peanut, and he was knocked out,When he woke up, he was in a hospital,The doctors told him that he was allergic to peanuts, and he would never be able to eat them again,The peanut warrior was sad, but he made the decision to never eat peanuts again, and he found a remedy for his allergy,He was able to continue his life, and he was happy,The End. The peanut warrior was sad, but he made the decision to never eat peanuts again, and he found a remedy for his allergy. He was able to continue his life, and he was happy.";
-const NETWORK = "goerli";
+const NETWORK = "sepolia";
 
 @Injectable()
 export class AppService {

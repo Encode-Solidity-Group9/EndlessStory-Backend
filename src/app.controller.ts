@@ -5,8 +5,6 @@ import { AppService } from './app.service';
 
 export class appendToStoryDto {
   keywords: string;
-  // model: string;
-  // temperature: number;
 }
 
 @Controller()
